@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio professionnel de KªlºnD's Tech - Développeur Web, Créateur d'Applications et Designer Graphique">
+    <meta name="keywords" content="portfolio, développeur web, designer graphique, applications web">
+    <title>KªlºnD's Tech - Portfolio Professionnel</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- ============================================ -->
+    <!-- NAVIGATION BAR -->
+    <!-- ============================================ -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand brand-text" href="#accueil">
+                <i class="fas fa-code"></i> KªlºnD's Tech
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#accueil">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#apropos">À propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#competences">Compétences</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#realisations">Réalisations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============================================ -->
+    <!-- HERO SECTION -->
+    <!-- ============================================ -->
+    <section id="accueil" class="hero-section">
+        <div class="particles" id="particles"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-6 text-center text-lg-start" data-aos="fade-up" data-aos-delay="100">
+                    <h1 class="hero-title">
+                        <span class="gradient-text">KªlºnD's Tech</span>
+                    </h1>
+                    <p class="hero-subtitle">Développeur Web • Créateur d'Applications • Designer Graphique</p>
+                    <p class="hero-description">Je conçois des solutions numériques modernes, des applications web performantes et des designs professionnels adaptés aux besoins des entreprises et particuliers.</p>
+                    <div class="hero-buttons mt-5">
+                        <a href="#realisations" class="btn btn-primary btn-custom me-3">
+                            <i class="fas fa-rocket"></i> Voir mes réalisations
+                        </a>
+                        <a href="#contact" class="btn btn-outline-primary btn-custom">
+                            <i class="fas fa-envelope"></i> Me contacter
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center" data-aos="fade-up" data-aos-delay="300">
+                    <div class="hero-image-container">
+                        <div class="image-glow"></div>
+                        <img src="assets/images/_20260612_113111~2.png" alt="Karl Man Kalond" class="hero-image" id="profileImage">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- ABOUT SECTION -->
+    <!-- ============================================ -->
+    <section id="apropos" class="about-section py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">À propos</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0" data-aos="fade-right" data-aos-delay="100">
+                    <div class="about-image-container">
+                        <img src="assets/images/file_00000000e52471f5b3dbf54d39e038ea.jpg" alt="Karl Man Kalond" class="about-image">
+                    </div>
+                </div>
+
+                <div class="col-lg-7" data-aos="fade-left" data-aos-delay="100">
+                    <h3 class="about-title">Karl Man Kalond</h3>
+                    <p class="about-text">
+                        Étudiant en Sciences Informatiques passionné par l'innovation, le développement web, les applications numériques et les nouvelles technologies.
+                    </p>
+                    <p class="about-text">
+                        Avec une expertise en création d'applications web modernes, de design graphique professionnel et de solutions technologiques innovantes, je suis déterminé à transformer vos idées en réalité numérique.
+                    </p>
+
+                    <!-- Statistics -->
+                    <div class="row mt-5">
+                        <div class="col-md-6 mb-4">
+                            <div class="stat-card">
+                                <div class="stat-number" data-target="25">0</div>
+                                <div class="stat-label">Projets réalisés</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="stat-card">
+                                <div class="stat-number" data-target="12">0</div>
+                                <div class="stat-label">Technologies maîtrisées</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="stat-card">
+                                <div class="stat-number" data-target="15">0</div>
+                                <div class="stat-label">Clients satisfaits</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="stat-card">
+                                <div class="stat-number" data-target="500">0</div>
+                                <div class="stat-label">+ Heures de développement</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SKILLS SECTION -->
+    <!-- ============================================ -->
+    <section id="competences" class="skills-section py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Compétences</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h4 class="skill-name">HTML5</h4>
+                        <div class="progress-bar-custom">
+                            <div class="progress-fill" data-width="95"></div>
+                        </div>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="150">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <h4 class="skill-name">CSS3</h4>
+                        <div class="progress-bar-custom">
+                            <div class="progress-fill" data-width="92"></div>
+                        </div>
+                        <span class="skill-percentage">92%</span>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-js-square"></i>
+                        </div>
+                        <h4 class="skill-name">JavaScript</h4>
+                        <div class="progress-bar-custom">
+                            <div class="progress-fill" data-width="88"></div>
+                        </div>
+                        <span class="skill-percentage">88%</span>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="250">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-bootstrap"></i>
+                        </div>
+                        <h4 class="skill-name">Bootstrap</h4>
+                        <div class="progress-bar-custom">
+                            <div class="progress-fill" data-width="90"></div>
+                        </div>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-php"></i>
+                        </div>
+                        <h4 class="skill-name">PHP</h4>
+                        <div class="progress-bar-custom">
+                            <div class="progress-fill" data-width="85"></div>
+                        </div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="350">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h4 class="skill-name">MySQL</h4>
+                        <div class="progress-bar-custom">
+                            <div class="progress-fill" data-width="82"></div>
+                        </div>
+                        <span class="skill-percentage">82%</span>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-git-alt"></i>
+                        </div>
+                        <h4 class="skill-name">Git</h4>
+                        <div class="progress-bar-custom">
+                            <div class="progress-fill" data-width="87"></div>
+                        </div>
+                        <span class="skill-percentage">87%</span>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="450">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h4 class="skill-name">GitHub</h4>
+                        <div class="progress-bar-custom">
+                            <div class="progress-fill" data-width="87"></div>
+                        </div>
+                        <span class="skill-percentage">87%</span>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h4 class="skill-name">UI/UX Design</h4>
+                        <div class="progress-bar-custom">
+                            <div class="progress-fill" data-width="84"></div>
+                        </div>
+                        <span class="skill-percentage">84%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SERVICES SECTION -->
+    <!-- ============================================ -->
+    <section id="services" class="services-section py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Services</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h4>Création de sites web</h4>
+                        <p>Sites vitrines modernes, responsive et optimisés pour les moteurs de recherche.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="150">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h4>Développement d'applications web</h4>
+                        <p>Applications web performantes et interactives adaptées à vos besoins.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h4>Design graphique</h4>
+                        <p>Designs créatifs et professionnels pour votre marque et vos projets.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="250">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <h4>Création d'affiches publicitaires</h4>
+                        <p>Affiches attrayantes et impactantes pour vos campagnes marketing.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h4>Maintenance informatique</h4>
+                        <p>Support technique et maintenance continue pour vos projets et systèmes.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="350">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h4>Consultation technologique</h4>
+                        <p>Conseils experts pour optimiser vos solutions numériques et votre technologie.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- PROJECTS SECTION -->
+    <!-- ============================================ -->
+    <section id="realisations" class="projects-section py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Réalisations</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="filter-buttons text-center mb-5" data-aos="fade-up" data-aos-delay="100">
+                <button class="filter-btn active" data-filter="*">Tous</button>
+                <button class="filter-btn" data-filter=".gestion">Gestion</button>
+                <button class="filter-btn" data-filter=".vitrine">Vitrine</button>
+                <button class="filter-btn" data-filter=".affiche">Affiches</button>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="row projects-grid">
+                <!-- Project 1 -->
+                <div class="col-md-6 col-lg-4 mb-4 project-item gestion" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./assets/images/./hotel.jpeg" alt="KªLºKIM PMS">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-sm btn-primary">Voir le projet</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4>HOTELERIE</h4>
+                            <p class="project-category">Application de gestion</p>
+                            <p class="project-description">Système complet de gestion hôtelière avec réservations, facturation et statistiques.</p>
+                            <div class="project-tags">
+                                <span class="tag">PHP</span>
+                                <span class="tag">MySQL</span>
+                                <span class="tag">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-6 col-lg-4 mb-4 project-item vitrine" data-aos="fade-up" data-aos-delay="150">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./assets/images/vitri.png" alt="Site Vitrine">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-sm btn-primary">Voir le projet</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4>Site Vitrine Professionnel</h4>
+                            <p class="project-category">Site vitrine</p>
+                            <p class="project-description">Site vitrine élégant avec design moderne et responsive pour entreprise professionnelle.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-md-6 col-lg-4 mb-4 project-item affiche" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./assets/images/afiche.avif" alt="Affiches">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-sm btn-primary">Voir le projet</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4>Affiches Publicitaires</h4>
+                            <p class="project-category">Design graphique</p>
+                            <p class="project-description">Collection d'affiches publicitaires créatives et impactantes pour campagnes marketing.</p>
+                            <div class="project-tags">
+                                <span class="tag">Design</span>
+                                <span class="tag">Graphisme</span>
+                                <span class="tag">Publicité</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="col-md-6 col-lg-4 mb-4 project-item gestion" data-aos="fade-up" data-aos-delay="250">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./assets/images/applic gestion.jpg" alt="Application">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-sm btn-primary">Voir le projet</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4>Application de Gestion</h4>
+                            <p class="project-category">Gestion d'entreprise</p>
+                            <p class="project-description">Application complète pour la gestion des stocks, ventes et clients en temps réel.</p>
+                            <div class="project-tags">
+                                <span class="tag">PHP</span>
+                                <span class="tag">Database</span>
+                                <span class="tag">UI Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="col-md-6 col-lg-4 mb-4 project-item vitrine" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./assets/images/./file_00000000c71c7230bdfcf4aaf55227d7~2.png" alt="E-Commerce">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-sm btn-primary">Voir le projet</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4>Plateforme E-Commerce</h4>
+                            <p class="project-category">Site de vente</p>
+                            <p class="project-description">Plateforme e-commerce complète avec panier, paiement et gestion des commandes.</p>
+                            <div class="project-tags">
+                                <span class="tag">E-Commerce</span>
+                                <span class="tag">Payment</span>
+                                <span class="tag">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="col-md-6 col-lg-4 mb-4 project-item affiche" data-aos="fade-up" data-aos-delay="350">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./assets/images/images.jpeg" alt="Branding">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-sm btn-primary">Voir le projet</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4>Branding & Design</h4>
+                            <p class="project-category">Identité visuelle</p>
+                            <p class="project-description">Création d'identité visuelle complète pour marques, logos et matériel marketing.</p>
+                            <div class="project-tags">
+                                <span class="tag">Branding</span>
+                                <span class="tag">Logo</span>
+                                <span class="tag">Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- TESTIMONIALS SECTION -->
+    <!-- ============================================ -->
+    <section class="testimonials-section py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Témoignages</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-card">
+                        <div class="stars mb-3">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Travail professionnel et de haute qualité. Karl a transformé ma vision en réalité exceptionnelle."</p>
+                        <div class="testimonial-author">
+                            <img src="f" alt="Client">
+                            <div>
+                                <h5>Jean Dupont</h5>
+                                <small>CEO - Tech Solutions</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="150">
+                    <div class="testimonial-card">
+                        <div class="stars mb-3">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Un développeur talentueux et créatif. Ses solutions sont innovantes et bien exécutées."</p>
+                        <div class="testimonial-author">
+                            <img src="https://via.placeholder.com/50x50?text=Client" alt="Client">
+                            <div>
+                                <h5>Marie Martin</h5>
+                                <small>Directrice Marketing</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-card">
+                        <div class="stars mb-3">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Excellent service client et délais respectés. Je recommande vivement ses services!"</p>
+                        <div class="testimonial-author">
+                            <img src="https://via.placeholder.com/50x50?text=Client" alt="Client">
+                            <div>
+                                <h5>Pierre Laurent</h5>
+                                <small>Entrepreneur Digital</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- CONTACT SECTION -->
+    <!-- ============================================ -->
+    <section id="contact" class="contact-section py-5">
+        <div class="container py-5">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Contact</h2>
+                <div class="title-underline"></div>
+                <p style="color: var(--text-light); margin-top: 1rem; font-size: 1.1rem;">Contactez-moi pour vos projets ou demandes d'information</p>
+            </div>
+
+            <div class="row g-5">
+                <div class="col-lg-6 mb-5" data-aos="fade-right" data-aos-delay="100">
+                    <h3 class="mb-4">Contactez-moi</h3>
+                    <form id="contactForm" class="contact-form">
+                        <div class="mb-3">
+                            <input type="text" class="form-control form-control-custom" id="name" placeholder="Votre nom" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control form-control-custom" id="email" placeholder="Votre email" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control form-control-custom" id="subject" placeholder="Sujet" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control form-control-custom" id="message" rows="5" placeholder="Votre message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-custom w-100">
+                            <i class="fas fa-send"></i> Envoyer le message
+                        </button>
+                    </form>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+                    <h3 class="mb-4">Informations de contact</h3>
+                    
+                    <div class="contact-info-card mb-4">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h5>Email</h5>
+                            <p><a href="mailto:charleskalonda660@gmail.com">charleskalonda660@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card mb-4">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h5>Téléphone</h5>
+                            <p><a href="tel:0834547434">0834547434</a></p>
+                        </div>
+                    </div>
+
+                    <h4 class="mt-5 mb-3">Suivez-moi</h4>
+                    <div class="social-links">
+                        <a href="https://wa.me/243834547434" target="_blank" class="social-link whatsapp" title="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://facebook.com" target="_blank" class="social-link facebook" title="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank" class="social-link github" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="social-link linkedin" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" class="social-link instagram" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- FOOTER -->
+    <!-- ============================================ -->
+    <footer class="footer-section py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="footer-text">
+                        <strong>KªlºnD's Tech</strong><br>
+                        © 2026 Tous droits réservés
+                    </p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="footer-text">
+                        Développé avec <i class="fas fa-heart"></i> par Kalond
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
